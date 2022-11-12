@@ -21,12 +21,14 @@ public class TwoArr {
         //         System.out.println();
         // }
 
+        //Prints row array in , just print the row 
         // for(int row=0;row<arr.length;row++){
         //     System.out.println(Arrays.toString(arr[row]));
         // }
 
-        for(int[] a:arr){
-            System.out.println(Arrays.toString(a));
-        }
+        //enhenc for loop
+        // for(int[] a:arr){
+        //     System.out.println(Arrays.toString(a));
+        // }
     }
 }
