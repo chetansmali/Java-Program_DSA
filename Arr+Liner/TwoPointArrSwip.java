@@ -7,7 +7,7 @@ public class TwoPointArrSwip {
 
         revarr(arr);
 
-        System.out.println(Arrays.toString(args));
+        System.out.println(Arrays.toString(arr));
     }
 
     static void revarr(int[] arr){

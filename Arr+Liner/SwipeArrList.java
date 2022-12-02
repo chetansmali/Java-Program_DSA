@@ -4,8 +4,6 @@ import java.util.Scanner;
 
 public class SwipeArrList {
     public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
-
         int[] list={10,2,5,3,44,6,9,7};
 
         int max=swip(list);

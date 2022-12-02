@@ -27,7 +27,7 @@ public class EvenNo_of_digit {
             count++;
             num/=10;
         }
-        // System.out.println(count);
+       
         if(count %2 ==0 ){
             return true;
         }
