@@ -8,6 +8,7 @@ public class SumRepiArr {
 
         static int[] sum(int[] arr){
             int[] s=new int[arr.length];
+
             for(int i=0;i<arr.length;i++){
                 s[i]=arr[i]+arr[i+1 ];
             }
