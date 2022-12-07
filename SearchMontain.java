@@ -10,6 +10,7 @@ public class SearchMontain {
     static int search(int[] arr,int target){
         int peck=peackIndex(arr);
         int FirstTry=BinarySer(arr,target,0,peck);
+
         if(FirstTry != -1){
              return FirstTry;
         }
