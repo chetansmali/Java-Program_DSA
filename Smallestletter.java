@@ -19,7 +19,7 @@ public class Smallestletter {
                     start=mid+1;
                 }
              }
-       // s%arr.length =>return index first value if nothing(last index char) found This is called Wraping around
+       // s % arr.length =>return index first value if nothing(last index char) found This is called Wraping around
        return letter[start%letter.length];
     }
 }
