@@ -7,7 +7,6 @@ public class SwipeArrList {
         int[] list={10,2,5,3,44,6,9,7};
 
         int max=swip(list);
-
         System.out.println(Arrays.toString(list));
         System.out.println(max);
     }
