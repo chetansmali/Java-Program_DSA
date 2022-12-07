@@ -4,6 +4,7 @@ import javax.naming.ldap.StartTlsRequest;
 
 public class RowColMatrix {
     public static void main(String[] args) {
+        //Here the matrix are sorted in terms of row and column wise
     int[][] arr={
         {10,20,30,40},
         {15,25,35,45},
