@@ -6,7 +6,10 @@ public class Pattern1 {
         //pat3(5);
         //pat4(5);
         // pat5(5);
-        pat6(5);
+        //pat6(5);
+        //pat7(5);
+        //pat8(4);
+        pat9(4);
     }
 
     static void pat1(int n){
@@ -69,4 +72,41 @@ public class Pattern1 {
         }
     }
 
+    static void pat7(int n){
+        for (int r = 1; r < n; r++) {
+            for (int c = 1; c < n; c++) {
+                int p=Math.min(r, c);
+                System.out.print(p + " ");
+            }
+            System.out.println();
+        }
+    }
+
+    static void pat8(int n){
+        int orign =  n;
+        n = 2 * n;
+        for (int r = 0; r <= n; r++) {
+                for (int c = 0; c <= n; c++) {
+                    int p=orign - Math.min(Math.min(r, c),Math.min(n-r, n-c));
+                    System.out.print(p + " ");
+                }
+                System.out.println();
+        }
+    }
+
+    static void pat9(int n){
+        for (int r = 1; r <= n; r++) {
+            int spc=n-r;
+            for (int s = 0; s <= spc; s++) {
+                    System.out.print(" ");
+            }
+            
+           int w=;
+            for (int c = 1; c <=w  ; c++) {
+                int p = c < n ? c : 2*n-c ;
+                System.out.print(p + " ");
+        }
+        System.out.println();
+        }
+    }
 }
