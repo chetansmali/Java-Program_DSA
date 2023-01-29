@@ -1,7 +1,7 @@
 public class InfinityArrBS {
     public static void main(String[] args) {
         int[] arr={3,5,7,9,10,99,110,130,140,160,170};
-        int target=110;
+        int target=10;
         System.out.println(ans(arr,target));
     }
 
