@@ -11,7 +11,7 @@ public class LinerSer {
     }
 
     static int Liner(int[] arr,int target){
-        //array is empty it will return -1.
+        //array is empty it will return -1
         if(arr.length==0){
             return -1;
         }
