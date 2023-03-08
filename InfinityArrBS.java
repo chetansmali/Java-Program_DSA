@@ -1,3 +1,4 @@
+#This will be the infinity array and using binary search traget elelment is seraching
 public class InfinityArrBS {
     public static void main(String[] args) {
         int[] arr={3,5,7,9,10,99,110,130,140,160,170};
@@ -15,6 +16,7 @@ public class InfinityArrBS {
             start=temp;
         }
 
+	#printing start and end for reference
         System.out.println(arr[end]);
         System.out.println(arr[start]);
 
