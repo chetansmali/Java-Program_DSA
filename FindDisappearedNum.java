@@ -27,6 +27,7 @@ public class FindDisappearedNum {
         return new int[]{arr.length};
     }
 
+#This will swip the numbers in ordered manner
     static void swip(int[] num,int first,int second){
         int temp = num[first];
         num[first] = num[second];
