@@ -6,6 +6,8 @@ public class RepatativeNumber {
 
         System.out.println(Arrays.toString(rep(arr,t)));
     }
+
+//It will return the array of two values that is starting and ending value
     static int[] rep(int[] arr,int t){
         int[] ans={-1,-1};
         int s=0;
