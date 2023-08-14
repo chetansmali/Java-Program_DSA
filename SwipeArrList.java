@@ -11,6 +11,7 @@ public class SwipeArrList {
         System.out.println(max);
     }
 
+//swiping the array elements.
     static int swip(int[] arr){
         int max=arr[0];
         for (int i = 0; i < arr.length; i++) {
