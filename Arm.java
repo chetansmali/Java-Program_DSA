@@ -28,6 +28,7 @@ public class Arm {
         
     }
 
+//is boll
     static boolean isarm(int n){
         int orgi=n;
         int r,sum=0;
